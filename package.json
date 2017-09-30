@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/promilo/assignment_building_the_express_router/issues"
   },
-  "homepage": "https://github.com/promilo/assignment_building_the_express_router#readme"
+  "homepage": "https://github.com/promilo/assignment_building_the_express_router#readme",
+  "dependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
