@@ -11,7 +11,10 @@ app.get('/', (req, res) => {
   res.end('Hi world!\n');
 });
 
-app.get('/parsed/:1', (req, res) => {
+app.get('/milind', (req, res) => {
+  res.end('Hi milind!\n');
+});
+app.get('/foo/:bar', (req, res) => {
   res.end('its [parsed]');
 });
 
